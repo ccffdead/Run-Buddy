@@ -1,0 +1,43 @@
+/* Universal Styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Header Style */
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+}
+/*Header Nav Styles */
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+/* Header h1 Styles */
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+}
+/*Header <a> Styles */
+header a {
+    text-decoration: none;
+    color: #fce138;
+}
+/*Header List Styles */
+header nav ul li {
+    display: inline;
+}
+/* Header List Text Styles */
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+/* Body Style */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #39a6b2
+}
