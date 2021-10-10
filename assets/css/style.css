@@ -116,23 +116,22 @@ body {
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
-  }
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
   
 .primary-border {
     border-color: #fce138;
-  }
+}
   
 .secondary-border {
     border-color: #39a6b2;
-  }
-/* "What we do" Styles */
-.intro {
-    text-align: center;
 }
+
+
 /* "What we do" p Styles */
 .intro p {
     line-height: 1.7;
@@ -140,10 +139,10 @@ body {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 } 
 /* "What you do" Styles */
 .steps {
-    text-align: center;
     background: #fce138;
 }
 .steps div {
@@ -165,10 +164,7 @@ body {
     color: #39a6b2;
     font-size: 23px;
 }
-/*Trainers Global Styles*/
-.trainers {
-    text-align: center;
-  }
+
 /*Trainers Format Styles*/
   .trainer {
     width: 900px;
@@ -273,4 +269,7 @@ footer div {
 /* Footer <a> Styles */
 footer a {
     color: #024e76;
+}
+.flex-row {
+    display: flex;
 }
