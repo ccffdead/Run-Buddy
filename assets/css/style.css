@@ -277,7 +277,7 @@ body {
 .contact-info a {
     color: #fce138;
 }
-.content-form input, .content-form textarea {
+.contact-form input, .contact-form textarea {
     border: 1px solid #024e76;
     display: block;
     padding: 7px 15px;
